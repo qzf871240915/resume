@@ -5,35 +5,48 @@
 	<title>个人简历</title>
 	<meta name="viewport" content="initial-scale=1">
 	<link rel="stylesheet" href="css/index.css">
-	
 </head>
 <body>
-	<div id="preload">
-		<div><i styl></i></div>
-		<section>
-			<div>秦增福</div>
-			<div></div>
-			<div>HTML5前端</div>
-		</section>
+	<div id="preload" style="background:url(images/t2.jpg) no-repeat center;background-size:100%">
+		
 	</div>
 	<div class="swiper-container">
 
         <div class="swiper-wrapper">
-            <div class="swiper-slide" style="background:url(images/1.jpg) no-repeat center;background-size:100%"> 
-          				<p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.5s" swiper-animate-delay="0.3s">个人简历</p>
-          </div>
-          <div class="swiper-slide" style="background:url(images/2.jpg) no-repeat center;background-size:100%">Slide 2</div>
-          <div class="swiper-slide" style="background:url(images/8.jpg) no-repeat center;background-size:100%">
-          	Slide 3
-          		<button id="enter"> 点击体验 </button>
-          </div>
-
-
+        	<div class="swiper-slide" style="background:url(images/t9.png) no-repeat center;background-size:200%">
+        		<div id="img-wrap">
+					<div id="img"style="background:url(images/t8.jpg) no-repeat center -30px;background-size:100%"></div>
+				</div>
+				<section class="prev-section">
+					<p class="ani" swiper-animate-effect="flip" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s">我是秦增福</p>
+					<p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">一名HTML5前端工作人员</p>
+					<p class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="1s" swiper-animate-delay="0.8s">毕业于南阳理工学院</p>
+					<p class="enter" class="ani" swiper-animate-effect="bounceInLeft" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s">了解更多</p>
+				</section>
+	        </div>
+	        <div class="swiper-slide" style="background:url(images/t8.jpg) no-repeat center;background-size:200%"> 
+	          	<dl class="header-dl"><dt>求职意向</dt> <dd>Job Intension</dd></dl>
+				<section class="job-section">
+					<dl class="dl-job"><dt>HTML5开发工程师</dt> <dd>HTML5 Development Engineer</dd></dl>
+					<dl class="dl-job"><dt>js开发工程师</dt> <dd>JS Development Engineer</dd></dl>
+					<dl class="dl-job"><dt>前端开发工程师</dt> <dd>Web Software Engineer</dd></dl>
+					<dl class="dl-job"><dt>页面重构师</dt> <dd> Page refactoring division</dd></dl>
+				</section>
+	        </div>
+	        <div class="swiper-slide" style="background:url(images/t6.jpg) no-repeat center;background-size:300%">
+				
+	        </div>
+	        <div class="swiper-slide" style="background:url(images/t7.jpg) no-repeat center;background-size:150%">Slide 2</div>
+	        <div class="swiper-slide" style="background:url(images/t7.jpg) no-repeat center;background-size:150%">
+	          	<p class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="0.8s" swiper-animate-delay="0.5s"> 想要了解更多关于我的内容吗？ </p>
+	          	<button id="not-enter`">不想了解</button>
+	          	<button class="enter">点击了解</button>
+	          	<button id="not-enter`">不想了解</button>
+	        </div>
         </div>
     </div>
     <div class="mainContent">
-
-    	<div id="header">iScroll</div>
+    	<div id="header">个人简介</div>
     	<div id="wrapper">
 			<div id="scroller">
 				<ul></ul>
@@ -41,11 +54,21 @@
 		</div>
 
 		<div id="footer">
-			<div class="button" id="skill">技能</div>
-			<div class="button" id="project">作品</div>
-			<div class="button" id="work">经历</div>
-			<div class="button" id="instructs">兴趣</div>
-			<div class="button" id="my">我的</div>
+			<div class="button" id="skill">
+				<i class="icon iconfont">&#xe713;</i> <div class="name">技能</div>
+			</div>
+			<div class="button" id="project">
+				<i class="icon iconfont">&#xe61d;</i><div class="name">项目</div>
+			</div>
+			<div class="button" id="work">
+				<i class="icon iconfont">&#xe697;</i><div class="name">经历</div>
+			</div>
+			<div class="button" id="instructs">
+				<i class="icon iconfont">&#xe62c;</i> <div class="name">兴趣</div>
+			</div>
+			<div class="button" id="my">
+				<i class="icon iconfont">&#xe6cb;</i> <div class="name">个人</div>
+			</div>
 		</div>
     </div>
 	<script type="text/javascript" src="js/index.js"></script>

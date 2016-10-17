@@ -1,6 +1,40 @@
-@mimin web(){
-	-webkit-transform: translateZ(0);
-	-moz-transform: translateZ(0);
-	-ms-transform: translateZ(0);
-	-o-transform: translateZ(0);
+
+#preload{
+	width:400px;
+	height: 500px;
 }
+
+.swiper-slide:nth-of-type(1){
+	display: flex;
+	justify-content:center;
+	flex-flow:column wrap;
+}
+#img-wrap{
+	display: flex;
+	width:100%;
+	height:150px;
+	justify-content:center;
+	align-items:center;
+}
+#img{
+    width:150px;
+    height:150px;
+    background:red;
+    border-radius: 50%;
+    margin-top:-30px;
+ }
+ .prev-section{
+ 	width:100%;
+ 	height:30%;
+ 	display: flex;
+ 	justify-content:center;
+ 	flex-flow:column wrap;
+	margin-bottom: 100px;
+ }
+ .prev-section>p{
+ 	display: flex;
+ 	width:100%;
+ 	height:20px;
+ 	justify-content:center;
+ 	margin-bottom:15px;
+ }
